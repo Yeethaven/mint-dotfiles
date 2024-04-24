@@ -38,17 +38,13 @@ alias vs 'vim ~/.ssh/config'
 alias usg 'du -ah --max-depth=1'
 alias amt 'ls -la | wc -l'
 
-
-# Uni
-alias cip 'ssh or38uqot@cip2a0.cip.cs.fau.de'
-
 # NordVPN
-alias nlog 'nordvpn login'
-alias ncon 'nordvpn connect'
-alias ndis 'nordvpn disconnect'
-alias nstat 'nordvpn status'
+#alias nlog 'nordvpn login'
+#alias ncon 'nordvpn connect'
+#alias ndis 'nordvpn disconnect'
+#alias nstat 'nordvpn status'
 
-# 2nd discord instance
+# start a 2nd discord instance
 alias disco2 '/bin/bash -c "export XDG_CONFIG_HOME=~/.nya; export TMPDIR=~/nya; discord"'
 
 # ----- Environment -----
