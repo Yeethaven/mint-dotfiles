@@ -8,19 +8,19 @@ Install:
 `cat ~/gterminal.preferences | dconf load /org/gnome/terminal/legacy/profiles:/`
 
 ## fish
-`cd ~/.config/fish/ && ln -s </path/to/repo>/fish/config.fish`
+`ln -s </path/to/repo>/fish/config.fish ~/.config/fish/`   
 
 ## bash
-`cd ~ && ln -s </path/to/repo>/.bashrc`
+`ln -s </path/to/repo>/.bashrc ~/`
 
 ## vim
-`cd ~ && ln -s </path/to/repo>/.vimrc`
+`ln -s </path/to/repo>/.vimrc ~/`
 
 ## btop
-`cd ~/.config/btop/ && ln -s </path/to/repo>/btop/btop.conf`
+`ln -s </path/to/repo>/btop/btop.conf ~/.config/btop/`
 
 ## devilspie2
-`cd ~/.config/devilspie2/ && ln -s </path/to/repo>/devilspie2/config.lua && ln -s </path/to/repo>/devilspie2/remove_titlebar.lua`
+`ln -s </path/to/repo>/devilspie2/config.lua ~/.config/devilspie2/ && ln -s </path/to/repo>/devilspie2/remove_titlebar.lua ~/.config/devilspie2/`
 
 ## firefox
 TODO
