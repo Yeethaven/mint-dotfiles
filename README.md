@@ -22,5 +22,8 @@ Install:
 ## devilspie2
 `ln -s </path/to/repo>/devilspie2/config.lua ~/.config/devilspie2/ && ln -s </path/to/repo>/devilspie2/remove_titlebar.lua ~/.config/devilspie2/`
 
+## vscodium
+`ln -s </path/to/repo>/vscodium/settings.json ~/.config/VSCodium/User/settings.json`
+
 ## firefox
 TODO

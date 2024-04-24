@@ -1,0 +1,25 @@
+{
+    "haskell.manageHLS": "PATH",
+    "workbench.colorTheme": "Apatheia",
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#666666",
+        "editorLineNumber.activeForeground": "#bbbbbb",
+        "editor.selectionBackground": "#135564",
+        "editor.selectionHighlightBackground": "#13556490"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Apatheia]": {
+            "comments": "#29df5f"
+        }
+    },
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.menuBarVisibility": "toggle",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "[coq]": {},
+    "remote.SSH.configFile": "/home/hoven/.ssh/config"
+}
