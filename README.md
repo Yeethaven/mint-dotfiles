@@ -2,10 +2,12 @@ Note: most of these commands will probably fail because there already is a file 
 
 ## gnome terminal
 Save:
-`dconf dump /org/gnome/terminal/ > ~/gterminal.preferences`
+`dconf dump /org/gnome/terminal/ > ~/gterm.preferences`
 
 Install:
-`cat ~/gterminal.preferences | dconf load /org/gnome/terminal/legacy/profiles:/`
+`cat ~/gterm.preferences | dconf load /org/gnome/terminal/legacy/profiles:/`
+on Debian:
+`dconf load /org/gnome/terminal/ < gterm.preferences`
 
 ## fish
 `ln -s </path/to/repo>/fish/config.fish ~/.config/fish/`   
