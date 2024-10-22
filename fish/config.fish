@@ -11,6 +11,7 @@ eval (opam env)
 # Alternatives for tools
 alias cat batcat
 alias bat batcat
+alias cat! 'command cat'
 alias l 'exa -aahl'
 alias ls exa
 alias ls! 'command ls'
@@ -92,6 +93,10 @@ end
 
 # prompt
 function fish_prompt
+#    echo -n "["
+#	echo -n $STATUS
+#    echo -n "] "
+
     echo -n "["
     set_color -o blue
     echo -n (date +%H:%M)

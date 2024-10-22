@@ -21,5 +21,6 @@
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 1,
     "[coq]": {},
-    "remote.SSH.configFile": "/home/hoven/.ssh/config"
+    "remote.SSH.configFile": "/home/hoven/.ssh/config",
+    "git.openRepositoryInParentFolders": "always"
 }
